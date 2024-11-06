@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom left,#FF1493 , #000000 60%);
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+  }
+  
+  .hero {
+    padding: 3rem;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+  }
+
+      h3{
+        color: #FF1493
+      }
+      
+  .pink {
+    color: #FF1493; /* Pink for 'Z' */
+  }
+  
+  .neon-blue {
+    color: #00FFFF; /* Neon Blue for 'eki' */
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color:  #00FFFF;
+    margin-bottom: 1.5rem;
+    text-transform: lowercase;
+    margin-top: -1.5rem;
+  }
+  
+  .hero p {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+  }
+  
+  .btn {
+    background-color: #00FFFF; /* Neon Blue */
+    color:  #390220;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background-color: #00BFFF; /* Darker neon blue on hover */
+  }
+  
+  section {
+    padding: 2rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Transparent black background */
+    border-radius: 10px;
+    margin: 2rem auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(255, 53, 161, 0.857); /* Subtle pink shadow */
+  }
+  
+  .portfolio h2, .services h2, .contact h2 {
+    font-size: 1.8rem;
+    color: #00FFFF; /* Neon blue for section titles */
+    margin-bottom: 1rem;
+  }
+  
+  .portfolio-links {
+    margin: 1.5rem 0;
+  }
+  
+  .service {
+    margin: 1rem 0;
+  }
+  
+  .contact p, .services p, .portfolio p {
+    color: #FFFFFF;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+  
+    .btn {
+      padding: 0.6rem 1rem;
+      font-size: 0.9rem;
+    }
+  
+    section {
+      padding: 1.5rem;
+      width: 90%;
+      margin: 1rem auto;
+    }
+  
+    .service {
+      margin: 0.5rem 0;
+    }
+  }
+  
